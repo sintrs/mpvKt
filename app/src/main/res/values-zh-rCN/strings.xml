@@ -88,7 +88,7 @@
     <string name="pref_advanced_mpv_conf">编辑 mpv.conf</string>
     <string name="pref_advanced_input_conf">编辑 input.conf</string>
     <string name="pref_advanced_dump_logs_title">导出日志</string>
-    <string name="pref_advanced_dump_logs_summary">转存日志，以便与开发人员共享</string>
+    <string name="pref_advanced_dump_logs_summary">转存日志，以便与开发人员分享</string>
     <string name="pref_advanced_verbose_logging_title">详细日志</string>
     <string name="pref_advanced_verbose_logging_summary">有助于调试，但可能会影响性能</string>
     <string name="pref_advanced_clear_playback_history">清除播放历史</string>
