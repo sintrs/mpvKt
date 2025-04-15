@@ -10,6 +10,7 @@ plugins {
   alias(libs.plugins.room)
   alias(libs.plugins.detekt)
   alias(libs.plugins.about.libraries)
+  alias(libs.plugins.kotlinx.serialization)
 }
 
 android {
@@ -113,6 +114,7 @@ dependencies {
   implementation(libs.androidx.material3.android)
   implementation(libs.androidx.ui.tooling.preview)
   debugImplementation(libs.androidx.ui.tooling)
+  implementation(libs.navigation.compose)
   implementation(libs.androidx.appcompat)
   implementation(libs.androidx.compose.constraintlayout)
   implementation(libs.androidx.material3.icons.extended)
@@ -127,7 +129,6 @@ dependencies {
   implementation(libs.bundles.koin)
 
   implementation(libs.seeker)
-  implementation(libs.bundles.voyager)
   implementation(libs.compose.prefs)
   implementation(libs.bundles.about.libs)
   implementation(libs.simple.icons)
@@ -141,6 +142,7 @@ dependencies {
   detektPlugins(libs.detekt.formatter)
 
   implementation(libs.kotlinx.immutable.collections)
+  implementation(libs.kotlinx.serialization.json)
   implementation(libs.truetype.parser)
   implementation(libs.fsaf)
 }
