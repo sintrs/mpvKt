@@ -14,12 +14,12 @@ plugins {
 
 android {
   namespace = "live.mehiz.mpvkt"
-  compileSdk = 35
+  compileSdk = 36
 
   defaultConfig {
     applicationId = "live.mehiz.mpvkt"
-    minSdk = 21
-    targetSdk = 35
+    minSdk = 24
+    targetSdk = 36
     versionCode = 12
     versionName = "0.1.6"
 
@@ -34,7 +34,7 @@ android {
     abi {
       isEnable = true
       reset()
-      include("armeabi-v7a", "arm64-v8a", "x86", "x86_64")
+      include("arm64-v8a",)
       isUniversalApk = true
     }
   }
@@ -81,10 +81,7 @@ android {
     }
   }
   val abiCodes = mapOf(
-    "armeabi-v7a" to 1,
-    "arm64-v8a" to 2,
-    "x86" to 3,
-    "x86_64" to 4,
+    "arm64-v8a" to 1,
   )
   androidComponents {
     onVariants { variant ->
